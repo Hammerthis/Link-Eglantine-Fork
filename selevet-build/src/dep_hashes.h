@@ -1,0 +1,107 @@
+// SPDX-FileCopyrightText: 2025 Eden Emulator Project
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+#pragma once
+
+namespace Common {
+
+static const constexpr std::array<const char *, 30> dep_names = {
+	"OpenSSL",
+	"Boost",
+	"fmt",
+	"lz4",
+	"zstd",
+	"nlohmann_json",
+	"ZLIB",
+	"Opus",
+	"xbyak",
+	"enet",
+	"zbic",
+	"httplib",
+	"VulkanHeaders",
+	"VulkanUtilityLibraries",
+	"frozen",
+	"SimpleIni",
+	"cubeb",
+	"SDL3",
+	"SPIRV-Headers",
+	"sirit",
+	"reshade",
+	"libusb",
+	"VulkanMemoryAllocator",
+	"cpp-jwt",
+	"FFmpeg",
+	"nx_tzdb",
+	"gamemode",
+	"Qt6",
+	"QuaZip-Qt6",
+	"llvm-mingw"
+};
+
+static const constexpr std::array<const char *, 30> dep_hashes = {
+	"4.0.1-1788234794-b64f68a94e",
+	"1.92.0",
+	"12.1.0",
+	"ebb370ca83",
+	"33618c8",
+	"v3.12.0",
+	"v1.3.2",
+	"a3f0ec02b3",
+	"v7.40.1",
+	"v1.3.18",
+	"11b08f2712264bbed731545085cbd9702096ceb7",
+	"v0.46.0",
+	"v1.4.345",
+	"v1.4.345",
+	"61dce5ae18",
+	"v4.25",
+	"fa02160712",
+	"3.4.14-1788231389-147a8ee32d",
+	"vulkan-sdk-1.4.341.0",
+	"v1.0.7",
+	"v6.8.0",
+	"v1.0.29",
+	"v3.3.0",
+	"7f24eb4c32",
+	"9.0.2-av1-1",
+	"230326",
+	"ce6fe122f3",
+	"v6.9.3",
+	"2e95c9001b",
+	"20250828"
+};
+
+static const constexpr std::array<const char *, 30> dep_urls = {
+	"https://github.com/crueter-ci/OpenSSL",
+	"https://github.com/eden-emulator/ext-boost",
+	"https://github.com/fmtlib/fmt",
+	"https://github.com/lz4/lz4",
+	"https://github.com/facebook/zstd",
+	"https://github.com/nlohmann/json",
+	"https://github.com/madler/zlib",
+	"https://github.com/xiph/opus",
+	"https://github.com/herumi/xbyak",
+	"https://github.com/lsalzman/enet",
+	"https://github.com/kinnay/zbic",
+	"https://github.com/yhirose/cpp-httplib",
+	"https://github.com/KhronosGroup/Vulkan-Headers",
+	"https://github.com/KhronosGroup/Vulkan-Utility-Libraries",
+	"https://github.com/serge-sans-paille/frozen",
+	"https://github.com/brofield/simpleini",
+	"https://github.com/mozilla/cubeb",
+	"https://github.com/crueter-ci/SDL3",
+	"https://github.com/KhronosGroup/SPIRV-Headers",
+	"https://github.com/eden-emulator/sirit",
+	"https://github.com/crosire/reshade",
+	"https://github.com/libusb/libusb",
+	"https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+	"https://github.com/arun11299/cpp-jwt",
+	"https://github.com/Takoroka/ffmpeg-av1",
+	"https://git.eden-emu.dev/eden-emu/tzdb_to_nx",
+	"https://github.com/FeralInteractive/gamemode",
+	"https://github.com/Eden-CI/Qt",
+	"https://github.com/stachenov/quazip",
+	"https://git.eden-emu.dev/eden-emu/llvm-mingw"
+};
+
+} // namespace Common

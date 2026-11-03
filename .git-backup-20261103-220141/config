@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[user]
+	name = Hammerthis
+	email = Hammerthis@users.noreply.github.com
+[remote "origin"]
+	url = https://github.com/Hammerthis/Link-Eglantine-Fork.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

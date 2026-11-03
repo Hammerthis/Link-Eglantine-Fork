@@ -1,0 +1,440 @@
+
+FUNCTION 0x324750 
+324750: pacibsp  
+324754: sub sp, sp, #0xa0 
+324758: stp x29, x30, [sp, #0x40] 
+32475c: str x27, [sp, #0x50] 
+324760: stp x26, x25, [sp, #0x60] 
+324764: stp x24, x23, [sp, #0x70] 
+324768: stp x22, x21, [sp, #0x80] 
+32476c: stp x20, x19, [sp, #0x90] 
+324770: add x29, sp, #0x40 
+324774: ldr x8, [x0, #0x30] 
+324778: mov x25, x0 
+32477c: add x27, x29, #0x18 
+324780: sub x0, x29, #0x10 
+324784: mov x19, x7 
+324788: mov x20, x6 
+32478c: mov x21, x5 
+324790: mov x22, x4 
+324794: mov x23, x3 
+324798: mov x24, x2 
+32479c: mov x26, x1 
+3247a0: str xzr, [x29, #0x18] 
+3247a4: mov w1, wzr 
+3247a8: stp x8, x27, [x29, #-0x10] 
+3247ac: bl #0x324b70 
+3247b0: ldur x8, [x29, #-8] 
+3247b4: cbz x8, #0x32483c 
+3247b8: ldr x11, [x26] 
+3247bc: ldp x9, x8, [x29, #0x68] 
+3247c0: add x0, x25, #8 
+3247c4: sub x1, x29, #0x10 
+3247c8: mov x2, x24 
+3247cc: mov x3, x23 
+3247d0: mov x4, x22 
+3247d4: mov x5, x21 
+3247d8: mov x6, x20 
+3247dc: mov x7, x19 
+3247e0: ldr x10, [x29, #0x60] 
+3247e4: str x27, [sp, #0x20] 
+3247e8: stur x11, [x29, #-0x10] 
+3247ec: mov w11, #0xa 
+3247f0: stp x9, x8, [sp, #8] 
+3247f4: str x10, [sp] 
+3247f8: str w11, [sp, #0x18] 
+3247fc: bl #0x324850 
+324800: mov w19, w0 
+324804: ldr x0, [x29, #0x18] 
+324808: cbz x0, #0x324818 
+32480c: ldr x8, [x0] 
+324810: ldr x8, [x8, #8] 
+324814: blr x8 
+324818: mov w0, w19 
+32481c: ldp x20, x19, [sp, #0x90] 
+324820: ldp x22, x21, [sp, #0x80] 
+324824: ldr x27, [sp, #0x50] 
+324828: ldp x24, x23, [sp, #0x70] 
+32482c: ldp x26, x25, [sp, #0x60] 
+324830: ldp x29, x30, [sp, #0x40] 
+324834: add sp, sp, #0xa0 
+324838: retab  
+32483c: mov w19, #0x160a 
+324840: ldr x0, [x29, #0x18] 
+324844: cbnz x0, #0x32480c 
+324848: b #0x324818 
+32484c: udf #0 
+324850: pacibsp  
+324854: sub sp, sp, #0xc0 
+324858: stp x29, x30, [sp, #0x60] 
+32485c: stp x28, x27, [sp, #0x70] 
+324860: stp x26, x25, [sp, #0x80] 
+324864: stp x24, x23, [sp, #0x90] 
+324868: stp x22, x21, [sp, #0xa0] 
+32486c: stp x20, x19, [sp, #0xb0] 
+324870: add x29, sp, #0x60 
+324874: ldr x8, [x29, #0x70] 
+324878: ldr x19, [x0, #8] 
+32487c: ldr w22, [x29, #0x78] 
+324880: mov x28, x6 
+324884: mov x21, x5 
+324888: mov x25, x4 
+32488c: ldr w20, [x0, #0x10] 
+324890: mov x0, x19 
+324894: str x8, [sp, #0x20] 
+324898: ldr x8, [x1] 
+32489c: ldp x24, x23, [x29, #0x60] 
+3248a0: str x7, [sp, #0x28] 
+3248a4: stp x3, x2, [sp] 
+3248a8: str x8, [sp, #0x10] 
+3248ac: ldr x8, [x19] 
+3248b0: ldr x8, [x8] 
+3248b4: blr x8 
+3248b8: mov w27, w0 
+3248bc: bl #0x858d20 
+3248c0: mov x8, #6 
+3248c4: mov x26, x0 
+3248c8: movk x8, #0x2c, lsl #32 
+3248cc: movk x8, #0x8000, lsl #48 
+3248d0: str x8, [x0] 
+3248d4: mov w8, #4 
+3248d8: str w8, [x0, #8] 
+3248dc: ldr w8, [x21] 
+3248e0: str wzr, [x21] 
+3248e4: ldrb w9, [x21, #4] 
+3248e8: strb wzr, [x21, #4] 
+3248ec: ldr w21, [x28] 
+3248f0: str wzr, [x28] 
+3248f4: stur w9, [x29, #-0x2c] 
+3248f8: ldrb w9, [x28, #4] 
+3248fc: strb wzr, [x28, #4] 
+324900: str w8, [sp, #0x1c] 
+324904: stp w8, w21, [x0, #0xc] 
+324908: add x8, x0, #0x23 
+32490c: and x28, x8, #0xfffffffffffffff0 
+324910: mov x8, #0x4653 
+324914: movk x8, #0x4943, lsl #16 
+324918: stp xzr, xzr, [x28, #0x90] 
+32491c: stp xzr, xzr, [x28, #0x80] 
+324920: stp xzr, xzr, [x28, #0x70] 
+324924: stp xzr, xzr, [x28, #0x60] 
+324928: stp xzr, xzr, [x28, #0x50] 
+32492c: stp xzr, xzr, [x28, #0x40] 
+324930: stp xzr, xzr, [x28, #0x30] 
+324934: stp xzr, xzr, [x28, #0x20] 
+324938: movk x8, #1, lsl #32 
+32493c: str w9, [sp, #0x30] 
+324940: stp x8, x22, [x28, #0x10] 
+324944: ldp x8, x9, [x25] 
+324948: ldp x10, x11, [x25, #0x10] 
+32494c: stp x10, x11, [x28, #0x30] 
+324950: stp x8, x9, [x28, #0x20] 
+324954: ldp x8, x9, [x25, #0x20] 
+324958: ldp x10, x11, [x25, #0x30] 
+32495c: stp x10, x11, [x28, #0x50] 
+324960: stp x8, x9, [x28, #0x40] 
+324964: ldp x8, x9, [x25, #0x40] 
+324968: ldp x10, x11, [x25, #0x50] 
+32496c: str xzr, [x28, #8] 
+324970: stp x8, x9, [x28, #0x60] 
+324974: ldp x8, x9, [sp, #0x20] 
+324978: stp x10, x11, [x28, #0x70] 
+32497c: stp x23, x8, [x28, #0x90] 
+324980: mov w8, #1 
+324984: stp x9, x24, [x28, #0x80] 
+324988: movk w8, #0x90, lsl #16 
+32498c: stp w8, w20, [x28] 
+324990: bl #0x858d60 
+324994: mov w2, #0x100 
+324998: str w0, [x28, #0xc] 
+32499c: mov w24, w27 
+3249a0: mov x0, x24 
+3249a4: mov x1, x26 
+3249a8: bl #0x858d30 
+3249ac: cbnz w0, #0x324b50 
+3249b0: sub x0, x29, #0x28 
+3249b4: stp xzr, xzr, [x29, #-0x10] 
+3249b8: stp xzr, xzr, [x29, #-0x20] 
+3249bc: mov x1, x26 
+3249c0: stur xzr, [x29, #-0x28] 
+3249c4: bl #0xb9980 
+3249c8: ldur x8, [x29, #-0x28] 
+3249cc: ldurb w9, [x29, #-7] 
+3249d0: mov w11, #0x4653 
+3249d4: movk w11, #0x4f43, lsl #16 
+3249d8: add x9, x8, x9, lsl #2 
+3249dc: add x9, x9, #0xf 
+3249e0: and x9, x9, #0xfffffffffffffff0 
+3249e4: ldr w10, [x9, #0x10] 
+3249e8: cmp w10, w11 
+3249ec: b.ne #0x324a10 
+3249f0: ldr x25, [x9, #0x18] 
+3249f4: cbz w25, #0x324a28 
+3249f8: mov w0, w25 
+3249fc: bl #0x858d70 
+324a00: mov w26, wzr 
+324a04: ldr w8, [sp, #0x30] 
+324a08: cbnz w8, #0x324a70 
+324a0c: b #0x324a78 
+324a10: mov w25, #0xa80a 
+324a14: mov w26, wzr 
+324a18: movk w25, #1, lsl #16 
+324a1c: ldr w8, [sp, #0x30] 
+324a20: cbnz w8, #0x324a70 
+324a24: b #0x324a78 
+324a28: ldr w10, [x9, #0x20] 
+324a2c: ldr x11, [sp] 
+324a30: str w10, [x11] 
+324a34: ldr x10, [sp, #8] 
+324a38: ldr w26, [x9, #0x24] 
+324a3c: ldurb w9, [x29, #-0xd] 
+324a40: ldr w0, [x10] 
+324a44: ldr w8, [x8, x9, lsl #2] 
+324a48: mov w9, #1 
+324a4c: str w8, [x10] 
+324a50: ldrb w8, [x10, #4] 
+324a54: strb w9, [x10, #4] 
+324a58: cmp w8, #1 
+324a5c: b.ne #0x324a64 
+324a60: bl #0x85a0b0 
+324a64: mov w25, wzr 
+324a68: ldr w8, [sp, #0x30] 
+324a6c: cbz w8, #0x324a78 
+324a70: mov w0, w21 
+324a74: bl #0x85a0b0 
+324a78: ldur w8, [x29, #-0x2c] 
+324a7c: cbnz w8, #0x324a9c 
+324a80: ldr x8, [x19] 
+324a84: mov x0, x19 
+324a88: mov x1, x24 
+324a8c: ldr x8, [x8, #8] 
+324a90: blr x8 
+324a94: cbnz w25, #0x324b2c 
+324a98: b #0x324abc 
+324a9c: ldr w0, [sp, #0x1c] 
+324aa0: bl #0x85a0b0 
+324aa4: ldr x8, [x19] 
+324aa8: mov x0, x19 
+324aac: mov x1, x24 
+324ab0: ldr x8, [x8, #8] 
+324ab4: blr x8 
+324ab8: cbnz w25, #0x324b2c 
+324abc: ldr x20, [x29, #0x80] 
+324ac0: ldr x0, [x20] 
+324ac4: cbz w26, #0x324af4 
+324ac8: ldr x8, [x0] 
+324acc: ldr x8, [x8, #0x10] 
+324ad0: blr x8 
+324ad4: ldr x8, [x0] 
+324ad8: ldr x8, [x8] 
+324adc: blr x8 
+324ae0: mov w8, #1 
+324ae4: str x19, [x0, #8] 
+324ae8: str w26, [x0, #0x10] 
+324aec: strb w8, [x0] 
+324af0: b #0x324b08 
+324af4: str xzr, [x20] 
+324af8: cbz x0, #0x324b08 
+324afc: ldr x8, [x0] 
+324b00: ldr x8, [x8, #8] 
+324b04: blr x8 
+324b08: ldr x9, [sp, #0x10] 
+324b0c: ldr x8, [x20] 
+324b10: str xzr, [x20] 
+324b14: ldr x0, [x9] 
+324b18: str x8, [x9] 
+324b1c: cbz x0, #0x324b2c 
+324b20: ldr x8, [x0] 
+324b24: ldr x8, [x8, #8] 
+324b28: blr x8 
+324b2c: mov w0, w25 
+324b30: ldp x20, x19, [sp, #0xb0] 
+324b34: ldp x22, x21, [sp, #0xa0] 
+324b38: ldp x24, x23, [sp, #0x90] 
+324b3c: ldp x26, x25, [sp, #0x80] 
+324b40: ldp x28, x27, [sp, #0x70] 
+324b44: ldp x29, x30, [sp, #0x60] 
+324b48: add sp, sp, #0xc0 
+324b4c: retab  
+324b50: mov w25, w0 
+324b54: mov w26, wzr 
+324b58: ldr w8, [sp, #0x30] 
+324b5c: cbnz w8, #0x324a70 
+324b60: b #0x324a78 
+324b64: udf #0 
+324b68: udf #0 
+324b6c: udf #0 
+324b70: pacibsp  
+324b74: stp x29, x30, [sp, #-0x30]! 
+324b78: str x21, [sp, #0x10] 
+324b7c: stp x20, x19, [sp, #0x20] 
+324b80: mov x29, sp 
+324b84: ldr x8, [x0, #8] 
+324b88: cbz x8, #0x324c10 
+324b8c: ldr x21, [x0] 
+324b90: mov w19, w1 
+324b94: mov w1, #0x38 
+324b98: mov w2, #8 
+324b9c: mov x20, x0 
+324ba0: ldr x8, [x21] 
+324ba4: mov x0, x21 
+324ba8: ldr x8, [x8, #0x10] 
+324bac: blr x8 
+324bb0: cbz x0, #0x324c0c 
+324bb4: mov w8, #1 
+324bb8: stp xzr, xzr, [x0, #0x10] 
+324bbc: str w8, [x0, #0x28] 
+324bc0: adrp x8, #0xe75000 
+324bc4: ldr x8, [x8, #0xe80] 
+324bc8: str x21, [x0, #0x30] 
+324bcc: add x9, x8, #0x10 
+324bd0: add x8, x8, #0x60 
+324bd4: stp x9, xzr, [x0] 
+324bd8: str x8, [x0, #0x20] 
+324bdc: ldr x9, [x20, #8] 
+324be0: ldr x8, [x9, w19, sxtw #3] 
+324be4: str x0, [x9, w19, sxtw #3] 
+324be8: cbz x8, #0x324c10 
+324bec: ldr x9, [x8] 
+324bf0: ldp x20, x19, [sp, #0x20] 
+324bf4: mov x0, x8 
+324bf8: ldr x21, [sp, #0x10] 
+324bfc: ldr x1, [x9, #8] 
+324c00: ldp x29, x30, [sp], #0x30 
+324c04: autibsp  
+324c08: br x1 
+324c0c: str xzr, [x20, #8] 
+
+FUNCTION 0x324c60 
+324c60: pacibsp  
+324c64: sub sp, sp, #0xb0 
+324c68: stp x29, x30, [sp, #0x50] 
+324c6c: str x27, [sp, #0x60] 
+324c70: stp x26, x25, [sp, #0x70] 
+324c74: stp x24, x23, [sp, #0x80] 
+324c78: stp x22, x21, [sp, #0x90] 
+324c7c: stp x20, x19, [sp, #0xa0] 
+324c80: add x29, sp, #0x50 
+324c84: ldr x19, [x0, #8] 
+324c88: ldr w27, [x0, #0x10] 
+324c8c: mov w23, w4 
+324c90: mov x24, x3 
+324c94: mov x25, x2 
+324c98: mov x22, x1 
+324c9c: ldr x8, [x19] 
+324ca0: mov x0, x19 
+324ca4: ldr x8, [x8] 
+324ca8: blr x8 
+324cac: ldrh w26, [x19, #8] 
+324cb0: mov w21, w0 
+324cb4: bl #0x858d20 
+324cb8: adrp x8, #0xbd3000 
+324cbc: add x8, x8, #0xffc 
+324cc0: mov w9, #0x110000 
+324cc4: mov x20, x0 
+324cc8: sub x2, x29, #0x20 
+324ccc: mov x4, x26 
+324cd0: ldr x10, [x8, #0x10] 
+324cd4: ldr x8, [x8] 
+324cd8: str w9, [sp, #0x20] 
+324cdc: mov w9, #0xd 
+324ce0: add x3, x29, #0x1c 
+324ce4: mov w1, #1 
+324ce8: mov w5, #0x34 
+324cec: str x8, [sp, #8] 
+324cf0: add x8, sp, #8 
+324cf4: stp x9, x10, [sp, #0x10] 
+324cf8: stp x8, x0, [x29, #-0x10] 
+324cfc: mov x8, #6 
+324d00: movk x8, #1, lsl #16 
+324d04: movk x8, #0xd, lsl #32 
+324d08: str x8, [x0] 
+324d0c: mov w8, #0x19 
+324d10: sub x0, x29, #0x10 
+324d14: stp x25, x24, [x29, #-0x20] 
+324d18: str w8, [x29, #0x1c] 
+324d1c: bl #0xb9280 
+324d20: cbnz w0, #0x324e14 
+324d24: ldp x9, x8, [x29, #-0x10] 
+324d28: ldrb w9, [x9, #0x17] 
+324d2c: add x8, x8, x9, lsl #2 
+324d30: mov w9, w23 
+324d34: add x8, x8, #0xf 
+324d38: and x24, x8, #0xfffffffffffffff0 
+324d3c: mov w8, #1 
+324d40: movk w8, #0x14, lsl #16 
+324d44: str w22, [x24, #0x20] 
+324d48: str xzr, [x24, #8] 
+324d4c: stp w8, w27, [x24] 
+324d50: mov x8, #0x4653 
+324d54: movk x8, #0x4943, lsl #16 
+324d58: movk x8, #1, lsl #32 
+324d5c: stp x8, x9, [x24, #0x10] 
+324d60: bl #0x858d60 
+324d64: mov w2, #0x100 
+324d68: str w0, [x24, #0xc] 
+324d6c: mov w21, w21 
+324d70: mov x0, x21 
+324d74: mov x1, x20 
+324d78: bl #0x858d30 
+324d7c: cbnz w0, #0x324e20 
+324d80: add x0, sp, #8 
+324d84: stp xzr, xzr, [sp, #0x20] 
+324d88: stp xzr, xzr, [sp, #0x10] 
+324d8c: mov x1, x20 
+324d90: str xzr, [sp, #8] 
+324d94: bl #0xb9980 
+324d98: ldr x8, [sp, #8] 
+324d9c: ldrb w9, [sp, #0x29] 
+324da0: mov w10, #0x4653 
+324da4: movk w10, #0x4f43, lsl #16 
+324da8: add x8, x8, x9, lsl #2 
+324dac: add x8, x8, #0xf 
+324db0: and x8, x8, #0xfffffffffffffff0 
+324db4: ldr w9, [x8, #0x10] 
+324db8: cmp w9, w10 
+324dbc: b.ne #0x324dd4 
+324dc0: ldr x24, [x8, #0x18] 
+324dc4: cbz w24, #0x324ddc 
+324dc8: mov w0, w24 
+324dcc: bl #0x858d70 
+324dd0: b #0x324ddc 
+324dd4: mov w24, #0xa80a 
+324dd8: movk w24, #1, lsl #16 
+324ddc: ldr x8, [x19] 
+324de0: mov x0, x19 
+324de4: mov x1, x21 
+324de8: ldr x8, [x8, #8] 
+324dec: blr x8 
+324df0: mov w0, w24 
+324df4: ldp x20, x19, [sp, #0xa0] 
+324df8: ldp x22, x21, [sp, #0x90] 
+324dfc: ldr x27, [sp, #0x60] 
+324e00: ldp x24, x23, [sp, #0x80] 
+324e04: ldp x26, x25, [sp, #0x70] 
+324e08: ldp x29, x30, [sp, #0x50] 
+324e0c: add sp, sp, #0xb0 
+324e10: retab  
+324e14: mov w24, w0 
+324e18: mov w21, w21 
+324e1c: b #0x324ddc 
+324e20: mov w24, w0 
+324e24: b #0x324ddc 
+324e28: udf #0 
+324e2c: udf #0 
+324e30: pacibsp  
+324e34: stp x29, x30, [sp, #-0x20]! 
+324e38: str x19, [sp, #0x10] 
+324e3c: mov x29, sp 
+324e40: adrp x8, #0xe75000 
+324e44: mov x19, x0 
+324e48: ldr x8, [x8, #0x228] 
+324e4c: add x8, x8, #0x10 
+324e50: str x8, [x0, #0x8b0] 
+324e54: add x0, x0, #0x8f0 
+324e58: bl #0x857d40 
+324e5c: add x0, x19, #0x8b0 
+324e60: mov w1, wzr 
+324e64: bl #0xf5580 
+324e68: add x0, x19, #0x8f0 
+324e6c: bl #0x857d60 

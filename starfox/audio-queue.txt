@@ -1,0 +1,161 @@
+
+FUNCTION 0x328980 _ZN2nn5codec6hwacod4shim25HardwareAudioCodecManager7ExecuteEv
+328980: pacibsp  
+328984: stp x29, x30, [sp, #-0x50]! 
+328988: str x28, [sp, #0x10] 
+32898c: stp x24, x23, [sp, #0x20] 
+328990: mov x29, sp 
+328994: stp x22, x21, [sp, #0x30] 
+328998: stp x20, x19, [sp, #0x40] 
+32899c: sub sp, sp, #1, lsl #12 
+3289a0: ldr x8, [x0, #0x380] 
+3289a4: ldr x9, [x0, #0x3c0] 
+3289a8: subs x8, x9, x8 
+3289ac: ldr x9, [x0, #0x348] 
+3289b0: csel x9, x9, xzr, lo 
+3289b4: add x22, x9, x8 
+3289b8: tst x22, #0xffffffff0 
+3289bc: b.eq #0x328a68 
+3289c0: mov x19, x0 
+3289c4: add x0, sp, #0x10 
+3289c8: mov w2, #0xff0 
+3289cc: add x23, sp, #0x10 
+3289d0: mov w1, wzr 
+3289d4: bl #0x855370 
+3289d8: sbfx x21, x22, #4, #0x20 
+3289dc: ubfx x8, x22, #4, #0x20 
+3289e0: cbz x8, #0x328a0c 
+3289e4: add x20, sp, #0x10 
+3289e8: mov x24, x21 
+3289ec: add x0, x19, #0x340 
+3289f0: mov w2, #0x10 
+3289f4: mov w3, #0x10 
+3289f8: mov x1, x20 
+3289fc: bl #0x864b10 
+328a00: add x20, x20, #0x10 
+328a04: subs x24, x24, #1 
+328a08: b.ne #0x3289ec 
+328a0c: ldr x0, [x19, #0x48] 
+328a10: add x8, x23, x21, lsl #4 
+328a14: mov w9, #1 
+328a18: stp x23, x21, [sp] 
+328a1c: mov x1, sp 
+328a20: sturb w9, [x8, #-3] 
+328a24: ldr x8, [x0] 
+328a28: ldr x8, [x8, #0x30] 
+328a2c: blr x8 
+328a30: str w0, [x29, #0x1c] 
+328a34: cbnz w0, #0x328a84 
+328a38: lsl x8, x22, #0x1c 
+328a3c: lsr x8, x8, #0x20 
+328a40: cbz x8, #0x328a68 
+328a44: add x8, sp, #0x10 
+328a48: add x20, x8, #4 
+328a4c: ldurh w1, [x20, #-2] 
+328a50: add x0, x19, #0x1a0 
+328a54: bl #0x864d90 
+328a58: ldrh w1, [x20], #0x10 
+328a5c: bl #0x864c80 
+328a60: subs x21, x21, #1 
+328a64: b.ne #0x328a4c 
+328a68: add sp, sp, #1, lsl #12 
+328a6c: ldp x20, x19, [sp, #0x40] 
+328a70: ldp x22, x21, [sp, #0x30] 
+328a74: ldr x28, [sp, #0x10] 
+328a78: ldp x24, x23, [sp, #0x20] 
+328a7c: ldp x29, x30, [sp], #0x50 
+328a80: retab  
+328a84: add x0, x29, #0x1c 
+328a88: bl #0x857f90 
+328a8c: udf #0 
+328a90: udf #0 
+328a94: udf #0 
+328a98: udf #0 
+328a9c: udf #0 
+328aa0: pacibsp  
+328aa4: stp x29, x30, [sp, #-0x50]! 
+328aa8: stp x26, x25, [sp, #0x10] 
+328aac: stp x24, x23, [sp, #0x20] 
+328ab0: stp x22, x21, [sp, #0x30] 
+328ab4: stp x20, x19, [sp, #0x40] 
+328ab8: mov x29, sp 
+328abc: mov x19, x0 
+328ac0: ldr x0, [x0, #0x180] 
+328ac4: mov w1, #0x40 
+328ac8: bl #0x8637b0 
+328acc: ldr x8, [x19, #0x180] 
+328ad0: ldr w10, [x19, #0x190] 
+328ad4: ldr w9, [x8, #4] 
+328ad8: mov x25, x8 
+328adc: ldr w26, [x25, #0x44]! 
+328ae0: subs w9, w9, w26 
+328ae4: csel w10, w10, wzr, lo 
+328ae8: cmn w9, w10 
+328aec: b.eq #0x328b68 
+328af0: ldr x8, [x19, #0x188] 
+328af4: sbfiz x20, x26, #6, #0x20 
+328af8: mov w1, #0x40 
+328afc: add x0, x8, x20 
+328b00: bl #0x8637b0 
+328b04: ldr x8, [x19, #0x188] 
+328b08: ldr w9, [x19, #0x190] 
+328b0c: mov w1, #0x40 
+328b10: add x8, x8, x20 
+328b14: ldrh w20, [x8, #2] 
+328b18: ldrh w21, [x8, #4] 
+328b1c: ldr x22, [x8, #8] 
+328b20: ldp w23, w24, [x8, #0x10] 
+328b24: add w8, w26, #1 
+328b28: cmp w8, w9 
+328b2c: csinc w8, wzr, w26, ge 
+328b30: str w8, [x25] 
+328b34: ldr x8, [x19, #0x180] 
+328b38: add x0, x8, #0x40 
+328b3c: bl #0x8637b0 
+328b40: add x0, x19, #0x1a0 
+328b44: mov w1, w20 
+328b48: bl #0x864d90 
+328b4c: mov w1, w21 
+328b50: mov x2, x24 
+328b54: mov x3, x22 
+328b58: mov x4, x23 
+328b5c: bl #0x864ca0 
+328b60: ldr x0, [x19, #0x180] 
+328b64: b #0x328ac4 
+328b68: ldp x20, x19, [sp, #0x40] 
+328b6c: ldp x22, x21, [sp, #0x30] 
+328b70: add x0, x8, #0x40 
+328b74: mov w1, #0x40 
+
+FUNCTION 0x329b70 _ZN2nn5codec6hwacod4shim24WorkBufferSizeCalculator18GetAdspManagerSizeEv
+329b70: pacibsp  
+329b74: sub sp, sp, #0x30 
+329b78: stp x29, x30, [sp, #0x10] 
+329b7c: str x19, [sp, #0x20] 
+329b80: add x29, sp, #0x10 
+329b84: add x8, x29, #0x18 
+329b88: mov x19, x0 
+329b8c: str xzr, [x29, #0x18] 
+329b90: bl #0x864bf0 
+329b94: ldr x0, [x29, #0x18] 
+329b98: ldr w2, [x19, #0x124] 
+329b9c: sub x1, x29, #4 
+329ba0: stur wzr, [x29, #-4] 
+329ba4: ldr x8, [x0] 
+329ba8: ldr x8, [x8, #0x28] 
+329bac: blr x8 
+329bb0: str w0, [sp, #8] 
+329bb4: cbnz w0, #0x329be4 
+329bb8: ldur w19, [x29, #-4] 
+329bbc: ldr x0, [x29, #0x18] 
+329bc0: cbz x0, #0x329bd0 
+329bc4: ldr x8, [x0] 
+329bc8: ldr x8, [x8, #8] 
+329bcc: blr x8 
+329bd0: mov w0, w19 
+329bd4: ldr x19, [sp, #0x20] 
+329bd8: ldp x29, x30, [sp, #0x10] 
+329bdc: add sp, sp, #0x30 
+329be0: retab  
+329be4: add x0, sp, #8 
+329be8: bl #0x857f90 

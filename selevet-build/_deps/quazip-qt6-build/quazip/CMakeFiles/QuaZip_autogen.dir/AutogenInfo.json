@@ -1,0 +1,271 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build/_deps/quazip-qt6-build/quazip/QuaZip_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build/_deps/quazip-qt6-build/quazip",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/CMakeLists.txt",
+		"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake",
+		"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake",
+		"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build/_deps/quazip-qt6-build/quazip/QuaZip_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "QuaZip_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/JlCompress.h",
+			"Mu",
+			"EWIEGA46WW/moc_JlCompress.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/ioapi.h",
+			"Mu",
+			"EWIEGA46WW/moc_ioapi.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/minizip_crypt.h",
+			"Mu",
+			"EWIEGA46WW/moc_minizip_crypt.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quaadler32.h",
+			"Mu",
+			"EWIEGA46WW/moc_quaadler32.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quachecksum32.h",
+			"Mu",
+			"EWIEGA46WW/moc_quachecksum32.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quacrc32.h",
+			"Mu",
+			"EWIEGA46WW/moc_quacrc32.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quagzipfile.h",
+			"Mu",
+			"EWIEGA46WW/moc_quagzipfile.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quaziodevice.h",
+			"Mu",
+			"EWIEGA46WW/moc_quaziodevice.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazip.h",
+			"Mu",
+			"EWIEGA46WW/moc_quazip.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazip_global.h",
+			"Mu",
+			"EWIEGA46WW/moc_quazip_global.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazip_qt_compat.h",
+			"Mu",
+			"EWIEGA46WW/moc_quazip_qt_compat.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazip_textcodec.h",
+			"Mu",
+			"EWIEGA46WW/moc_quazip_textcodec.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazipdir.h",
+			"Mu",
+			"EWIEGA46WW/moc_quazipdir.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazipfile.h",
+			"Mu",
+			"EWIEGA46WW/moc_quazipfile.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazipfileinfo.h",
+			"Mu",
+			"EWIEGA46WW/moc_quazipfileinfo.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazipnewinfo.h",
+			"Mu",
+			"EWIEGA46WW/moc_quazipnewinfo.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/unzip.h",
+			"Mu",
+			"EWIEGA46WW/moc_unzip.cpp",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/zip.h",
+			"Mu",
+			"EWIEGA46WW/moc_zip.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build/_deps/quazip-qt6-build/quazip/QuaZip_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build/_deps/quazip-qt6-build/quazip/QuaZip_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ARCHITECTURE_x86_64=1",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QUAZIP_STATIC",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"WINVER=0x0A00",
+		"YUZU_BOOST_v1",
+		"YUZU_BUNDLED_OPENSSL",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN32_WINNT=0x0A00",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build/_deps/quazip-qt6-build/quazip",
+		"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip",
+		"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b",
+		"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build/_deps/zlib-build",
+		"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/zlib/v1.3.2",
+		"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/qt6/6.9.3-windows-amd64/include/QtCore",
+		"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/qt6/6.9.3-windows-amd64/include",
+		"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/qt6/6.9.3-windows-amd64/mkspecs/win32-msvc"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 14,
+	"PARSE_CACHE_FILE" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build/_deps/quazip-qt6-build/quazip/CMakeFiles/QuaZip_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/qt6/6.9.3-windows-amd64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build/_deps/quazip-qt6-build/quazip/CMakeFiles/QuaZip_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/JlCompress.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/qioapi.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quaadler32.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quachecksum32.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quacrc32.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quagzipfile.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quaziodevice.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazip.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazip_textcodec.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazipdir.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazipfile.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazipfileinfo.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/quazipnewinfo.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/unzip.c",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/.cache/cpm/quazip-qt6/2e95c9001b/quazip/zip.c",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

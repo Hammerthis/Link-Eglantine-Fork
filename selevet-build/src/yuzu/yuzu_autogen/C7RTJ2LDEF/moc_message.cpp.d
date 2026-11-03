@@ -1,0 +1,1 @@
+C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-build/src/yuzu/yuzu_autogen/C7RTJ2LDEF/moc_message.cpp: C:/Users/andje/Documents/Codex/2026-11-03/hi/work/selevet-source/src/yuzu/multiplayer/message.h
